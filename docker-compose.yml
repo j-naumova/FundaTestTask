@@ -1,0 +1,14 @@
+services:  
+  properties_database:    
+    image: "postgres:latest"
+    
+    ports:
+      - 8002:5432
+
+    environment:
+      POSTGRES_USER: username 
+      POSTGRES_PASSWORD: password 
+      POSTGRES_DB: properties_database    
+
+    volumes:
+        - ./db-data/:/var/lib/postgresql/
