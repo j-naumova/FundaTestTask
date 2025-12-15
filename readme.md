@@ -1,5 +1,5 @@
-please run 
-> docker-compose up
+please run   
+docker-compose up  
 before starting the application
 
 data is stored locally for convenience in db-data folder
